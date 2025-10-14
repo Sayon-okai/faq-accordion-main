@@ -35,10 +35,7 @@ body {
 
 
  main {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    width: 50%;
     height: auto;
     padding: 20px;
     margin-top: -15vh;
@@ -67,6 +64,10 @@ body {
         font-family: 'work sans', Arial, Helvetica, sans-serif;
         font-weight: 600;
         font-size: 1em;
+        display: inline;
+        margin: 10px 0 10px 0;
+   
+    
          
   }
 
@@ -80,4 +81,41 @@ body {
       
       border-color: hsla(293, 16%, 49%, 0.241);
       margin: 10px 0 10px 0;
+  }
+
+  .faq{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: 1fr ;
+     grid-column-gap: 25%;
+  }
+
+  .faq h3 {
+    grid-column: span 3;
+  }
+
+  .faq p {
+    grid-column: span 4;
+  }
+
+  .fag .icons {
+    
+   
+  }
+
+
+  /* icons */
+
+  .star-icon {
+    margin-right: 10px;
+  }
+
+ 
+  .hidden-icon {
+    display: none;
+  }
+
+  .hidden {
+    visibility: hidden;
+    display: none;
   }
