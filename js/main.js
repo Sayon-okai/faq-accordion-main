@@ -1,8 +1,4 @@
 
-let addIcon = '<img src="./assets/images/icon-plus.svg" alt="plus icon" class="icons-add icons">';
-
-let minusIcon = '<i><img src="./assets/images/icon-minus.svg" alt="plus icon" class="icons-minus"></i>';
-
 
   $(".icons").click(function () {
       var faqAnswer = $(this).next("p");
