@@ -63,7 +63,7 @@ body {
         -webkit-text-stroke-color: hsl(292, 16%, 49%);
         font-family: 'work sans', Arial, Helvetica, sans-serif;
         font-weight: 600;
-        font-size: 13px;
+        font-size: 15px;
         display: inline;
         margin: 10px 0 20px 0;
    
@@ -71,7 +71,28 @@ body {
          
   }
 
+  a:hover{
+    color: hsl(293, 88%, 47%);
+    font-size: 17px;
+    cursor: pointer;
+ 
+  }
+
+ h3 a:focus{
+    color: hsl(293, 88%, 47%);
+    font-size: 17px;
+    cursor: pointer;
+   
+ 
+  }
+
+  h3 a {
+    color: #000;
+    text-decoration: none;
+  }
+
  p {
+         width: 80%;
         font-size: 16px;
         color: hsl(292, 16%, 49%);
         font-weight: 400;
@@ -88,7 +109,7 @@ body {
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      grid-template-rows: 1fr ;
-     grid-column-gap: 25%;
+     grid-column-gap: 15%;
   }
 
   .faq h3 {
@@ -98,12 +119,6 @@ body {
   .faq p {
     grid-column: span 4;
   }
-
-  .fag .icons {
-    
-   
-  }
-
 
   /* icons */
 
@@ -138,5 +153,34 @@ body {
 
 
 @media (min-width: 375px) and (max-width: 485px) {
-    /* No media query yet */
+  
+    header {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+    
+    
+            background: url(../assets/images/background-pattern-desktop.svg);
+        }
+
+    main {
+            width: 80%;
+            height: auto;
+            padding: 20px;
+            margin-top: -13vh;
+            margin-bottom: 5%;
+            border-radius: 10px;
+            background-color: hsl(0, 100%, 100%);
+            position: absolute;
+            justify-self: center;
+    
+    
+        }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 60vh;
+}
 }
