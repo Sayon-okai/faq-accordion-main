@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sayon-okai.github.io/faq-accordion-main/)
+- Live Site URL: [https://sayon-okai.github.io/faq-accordion-main/]
 
 ## My process
 
