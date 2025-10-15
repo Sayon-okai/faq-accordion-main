@@ -36,7 +36,7 @@ body {
     border-radius: 10px;
     background-color: hsl(0, 100%, 100%);
     position: absolute;
-    justify-self: center;
+    left: 25%;
   
 
  }
@@ -159,12 +159,12 @@ body {
             width: 80%;
             height: auto;
             padding: 20px;
-            margin-top: -13vh;
             margin-bottom: 5%;
             border-radius: 10px;
             background-color: hsl(0, 100%, 100%);
             position: absolute;
-            justify-self: none;
+            top: -13vh;
+            left: 10%;
     
     
         }
