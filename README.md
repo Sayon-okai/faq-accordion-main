@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/faqs-accordion---using-css-grid-IHE4v0XfZx]
 - Live Site URL: [https://sayon-okai.github.io/faq-accordion-main/]
 
 ## My process
